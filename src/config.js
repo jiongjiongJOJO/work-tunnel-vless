@@ -22,7 +22,7 @@ function getEnvVariable(name, validator, defaultValue = "") {
 
 module.exports = {
   getEnvVariable,
-  CONNECTION_CONFIG: { timeout: 5000, family: 4, keepAlive: true, keepAliveInitialDelay: 10000, noDelay: true },
+  CONNECTION_CONFIG: { timeout: 5000, keepAlive: true, keepAliveInitialDelay: 10000, noDelay: true },
   RETRY_CONFIG: { maxRetries: 2, retryDelay: 1000 },
 };
 
